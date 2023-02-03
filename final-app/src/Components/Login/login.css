@@ -1,0 +1,44 @@
+.login-form{
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid blueviolet;
+    overflow: hidden;
+}
+.login-form input{
+    height: 40px;
+    width: 80%;
+    border: 2px solid blueviolet;
+    padding: 20px;
+    margin: 20px;
+    font-size: 2em;
+}
+
+.form-button{
+    padding:10px 40px;
+    border-radius: 20px;
+    color: blueviolet;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 2em;
+    border: 2px solid blueviolet;
+}
+
+.username-tip{
+    display: none;   
+}
+.password-tip{
+    display: none;
+}
+
+
+.warning{
+    padding: 0 20px;
+    display: block;
+    color: red;
+}
+
+.inactive{
+    display: none;
+}

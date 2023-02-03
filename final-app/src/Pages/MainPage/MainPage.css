@@ -1,0 +1,40 @@
+.main-page{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    overflow: hidden;
+}
+.men{
+    background-image: url('../../images/men.jpg');
+  
+}
+.women{
+    background-image: url('../../images/women.jpg');
+    border: 2px solid white;
+}
+
+.kids{
+    background-image: url('../../images/kids.jpg');
+}
+
+.for{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.for{
+    transition: 300ms ease-in-out;
+}
+.for:hover{
+transform: scale(1.3);
+}
+.main-shadow{
+    opacity: 0;
+}
+
+.for:hover .main-shadow{
+    opacity: 1;
+    transition: 300ms ease-in-out;
+}
